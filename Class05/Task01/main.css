@@ -1,0 +1,82 @@
+* {
+    font-size: 4.92mm;
+}
+
+
+.sheetBlock {   
+    width: 210mm;
+    height: 297mm;
+   /* border-style: solid;*/
+    border: 2px solid;
+   /* background-color: antiquewhite;*/
+    margin: auto;
+
+}
+.headers_B1 {
+   /*border-style: solid;
+    background-color: chartreuse;*/
+    height: 115mm;
+}
+.inline1{ margin-left: 47mm;
+font-weight: bold;
+
+}
+#inline_1{
+margin-top: 15mm;
+/*border-style: solid;*/ 
+}
+#inline_11{
+    margin-left: 50mm;
+    /*border-style: solid;*/
+    margin-top: -3mm;
+}
+
+
+.task_B2 {
+   /* border-style: solid;
+    background-color: burlywood;*/
+    height: 80mm;
+
+
+}
+.inline2{
+    margin-left: 50mm;
+}
+#p21{
+    margin-left: 101mm;
+    margin-top: -3mm;
+}
+#p22{
+    font-weight: bolder;
+    margin-top: -3mm;
+}
+
+
+.name_B3{
+   /* border-style: solid;
+    background-color: darkcyan;*/
+   height: 65mm;
+
+   
+
+}
+.inline3{
+    margin: 1;
+    margin-left: 101mm;
+    margin-top: -3mm;  
+}
+#p3{margin-top: 3mm;}
+
+.footer_B4{
+   /* border-style: solid;
+    background-color: cornflowerblue;*/
+    height: 30mm;
+}
+
+.infot{
+    margin: 5mm ;
+    margin-left: 101mm;
+}
+span{
+    text-decoration: underline;
+}
