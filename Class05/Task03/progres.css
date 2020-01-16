@@ -1,0 +1,25 @@
+.block{
+    width: 600px;
+    height: 400px;
+    margin:0 auto ;
+    border: solid #000040 1px;
+}
+.progres{
+    width: 300px;
+    height: 25px;
+    border: solid #1f3bd6;
+    margin: 185px 150px;
+}
+.ind{
+    width: 72%;
+    height: 100%;
+    background: #6567e7;
+    
+    
+}
+.proces{
+    position: relative;
+    top: -22px;
+    left: 150px;
+    font-weight: 800;
+}

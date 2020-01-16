@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header><h1>Название интернет-магазина</h1></header>
+<body>
+    <nav id="menu1">
+        <input type="checkbox"  id="button-m1">
+        <label for="button-m1" class="name-button">Меню:</label>
+        <ul class="contener">
+            <li class="submenu ">
+                <a href="#m1">Бытовая техника</a>
+                <ul>
+                    <li><a href="#m1_1">Стиральные машины</a></li>
+                    <li><a href="#m1_2">Пылесосы</a></li>
+                    <li><a href="#m1_3">Швейные,вышивальные машины</a></li>
+                    <li><a href="#m1_4">Утюги</a></li>
+                    <li><a href="#m1_5">Электровеники</a></li>
+                    <li><a href="#m1_6">Сушилки для обуви</a></li>
+                </ul>
+            </li>
+            <li class="submenu">
+                <a href="#m2">Техника для кухни</a>
+                <ul>
+                    <li><a href="#m2_1">Холодильники</a></li>
+                    <li><a href="#m2_2">Кухонные плиты</a></li>
+                    <li><a href="#m2_3">Морозильники</a></li>
+                    <li><a href="#m2_4">Настольные плиты</a></li>
+                    <li><a href="#m2_5">Ростеры, мини печи</a></li>
+                    <li><a href="#m2_6">Вытяжки</a></li>
+                    <li><a href="#m2_7">Микроволновые печи</a></li>
+                </ul>
+            </li>
+            <li class="submenu">
+                <a href="#m3">Компьютерная техника</a>
+                <ul>
+                    <li><a href="#m3_1">Ноутбуки</a></li>
+                    <li><a href="#m3_2">Планшеты</a</li>
+                    <li><a href="#m3_3">Компьютеры, моноблоки</a></li>
+                    <li><a href="#m3_4">Игровые приставки</a></li>
+                    <li><a href="#m3_5">Серверное оборудование</a></li>
+                </ul>
+            </li>
+            <li class="submenu">
+                <a href="#m4">Корзина</a>
+            </li>
+        </ul> 
+    </nav>
+     <div class="clear"></div>
+     <div>   
+     <form action="/testcart.html" method="post">
+        <span>Форма отправки заказа</span> <br>
+        <input type="text" placeholder="Фамилия и имя"required><br>
+        <input type="tel" name="" id=""placeholder="Номер телефона"required><br>
+        <input type="email"name=""id=""placeholder="Email"required><br>
+        <span> Выберите способ доставки:</span><br>
+        <input type="radio" name="dos" id="radio1"><label for="radio1">Самовывоз со склада по адресу</label>
+        <input type="checkbox" name="" id="mov">
+        <label for="mov" class="gt"> ул. Скрыганова 6а, Минск</label>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.190690025444!2d27.51463661574291!3d53.91058728010111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbc55eac1f56b1%3A0x608821dc8d7c0b1!2z0YPQuy4g0KHQutGA0YvQs9Cw0L3QvtCy0LAgNtCwLCDQnNC40L3RgdC6!5e0!3m2!1sru!2sby!4v1579187806954!5m2!1sru!2sby" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="clear"></div>
+        <br>
+        <input type="radio" name="dos" id="radio2"><label for="radio2">Курьером по Минску</label><br>
+        <input type="text" name="" id="radio2-text"value="Введите свой адрес:"><br>
+<textarea name="" id="" cols="20" rows="5">Оставить коментарии</textarea><br>
+     <input type="checkbox" name="" id="check" required><span>Я прочитал и согласен с условиями доставки:</span><br>
+     <input type="submit" value="Подтвердить заказ"class="submit-open">
+        </form><br>
+    </div>
+    <footer>
+        <section> <p>Время работы: <br>                
+            9:00 – 21:00 пн-пт <br>
+            
+            9:00 – 21:00 сб, вс</p> </section>
+        <section> <p>Адрес офиса: <br>
+             г.Минск, ул.Скрыганова, <br>
+              6А, помещение № 6.</p> </section>
+        <section>
+            <p>Контакты:</p>
+            <ol>
+                <li>Тел. +37533 613 22 23</li>
+                <li>Тел. +37529 613 22 23</li>
+                <li>Тел. +37525 613 22 23</li>
+                <li>Тел. +37517 3 99999 0</li>
+                <li>Тел. +37517 3 99999 1</li>
+                <li>Skype: nixpro.by</li>
+            </ol>
+        </section>
+        
+    </footer>
+
+</body>
+
+</html>
+
