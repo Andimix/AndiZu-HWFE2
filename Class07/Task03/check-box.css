@@ -1,0 +1,32 @@
+div{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    background-color: cornsilk;
+    border: dimgray solid 2px;
+    padding: 10px;
+}
+#click ,.lab-check{
+    display:none;
+}
+
+svg{
+    width: 38px;
+    height: 38px;
+}
+.lab-check{
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    
+}
+#click:checked ~ .lab-check{
+    position: absolute;
+display: block;
+top:10px;
+
+}
+.lab-check:checked ~ .lab-check{
+    display: none;
+}

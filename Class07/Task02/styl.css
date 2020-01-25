@@ -1,0 +1,38 @@
+.main{
+    width: 50%;
+height: 50vh;
+margin: auto;    
+
+}
+
+.cont{
+    margin: auto;
+    width: 10%;
+ height: 10vh;
+ border: black solid 1px;
+ font-size: 4rem;
+padding: 3px;
+position: relative;
+}
+a{
+    text-decoration: none;
+    
+}
+ a:link svg{  
+    fill: rgb(82, 82, 90);
+}
+a:hover svg{
+    fill:rgb(17, 0, 255);
+    
+}
+ a:visited  svg{
+    fill: red ;
+} 
+a:visited:hover:hover svg{
+    fill:#ff6464;
+    opacity: 30%;
+    
+    
+     
+}
+
